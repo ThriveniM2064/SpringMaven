@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+         <!-- bean definitions here -->
+         <bean class="com.xworkz.configure.Configure" id="">
+	<property name="animals">
+	<list>
+	<value>Tiger</value>
+	<value>Lion</value>
+	<value>Monkey</value>
+	<value>zebra</value>
+	<value>Cat</value>
+	</list>
+	</property>
+	<property name="set">
+	<set>
+	<value>Padikal</value>
+	<value>Neelesh</value>
+	<value>Sneha</value>
+	<value>Vignesh</value>
+	</set>
+	</property>
+	<property name="Map">
+	<map>
+	<entry key="Emp-Name" value="Raj" />
+	<entry key="Id" value="1022" />
+	<entry key="Adress" value="Bangalore" />
+	</map>
+	</property>
+	<property name="properties">
+	<prop key="Camera">SonyMax</prop>
+	<prop key="Cost">43,000</prop>
+	<prop key="pixcel">127.68mp</prop>
+	<prop key="warranty">2years</prop>
+	</property>
+	</bean>
+	</beans> 
